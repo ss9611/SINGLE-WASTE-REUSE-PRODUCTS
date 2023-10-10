@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen and Dining</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/01db830c5b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="header">
+  <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="/homepage.html"><img src="./newimg/The main logo.jpg" width="125px" height="75px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="/homepage.html">Home</a></li>
+                <li><a href="/products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+   </div>
+</div>
+  
+  <div class="small-container">
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <!---<select>
+            <option>Default Sort</option>
+            <option>Sort by price</option>
+            <option>Sort by popularity</option>
+            <option>Sort by rating</option>
+            <option>Sort by sale</option>
+        </select>--->
+    </div>
+    
+    <div class="row">
+      <div class="col-4">
+        <img src="/newimg/Projanit.webp" width="300px" height="300px">
+        <a href="/hampichariot.html"><h4>Pro-Janit Eco-Friendly Cleaner</h4></a>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>₹100</p>
+      </div>
+      <div class="col-4">
+        <img src="/newimg/Peprig Dust pan.jpeg" width="300px" height="300px">
+        <a href="/hampitourdetails.html"><h4>Recycled PepPrig dust pan</h4></a>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>₹6000</p>
+      </div>
+      <div class="col-4">
+        <img src="/newimg/prakrutik.jpeg" width="300px" height="300px">
+        <a href="/badamitourdetails.html"><h4>Natural Garbage bag</h4></a>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>₹1200</p>
+      </div>
+      <div class="col-4">
+        <img src="/newimg/KENT Tri-Ply Cookware.jpeg" width="300px" height="300px">
+        <a href="/golcondafortdetails.html"><h4>Recycled Cook ware</h4></a>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>₹1000</p>
+      </div>
+      <div class="col-4">
+        <img src="./newimg/recycled plastic storage.jpg" width="300px" height="300px">
+        <a href="/light holder.html"><h4>recycled plastic storage containers</h4></a>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+        </div>
+        <p>₹300</p>
+      </div>
+      <div class="col-4">
+        <img src="./newimg/plasticpouch.jpeg" width="300px" height="300px">
+        <a href="/shivastatue.html"><h4>Recycled plastic pouch</h4></a>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>₹300</p>
+      </div>
+      <div class="col-4">
+        <img src="./newimg/econiture.jpg" width="300px" height="300px">
+        <a href="/shilparamambikedetails.html"><h4>Econiture Recycled Plastic Multipurpose Moveable Portable Folding Stool (Multicolor)</h4></a>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>₹200</p>
+      </div>
+      <div class="col-4">
+        <img src="./newimg/candle holder.webp" width="300px" height="300px">
+        <a href="/lepakshitourdetails.html"><h4>Recycled Metal Candle holder</h4></a>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>₹1000</p>
+      </div>
+    </div>
+    
+    <!---<div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+    </div>--->
+   </div>
+
+<!---footer--->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+       <!--- <div class="footer-col-1">
+          <h3>Download our App</h3>
+          <p>Download App for Android and ios mobile phone</p>
+          <div class="app-logo">
+            <img src="/app-store.png" alt="">
+            <img src="/play-store.png" alt="">
+          </div>
+        </div>
+        <!--<div class="footer-col-2">
+          <img src="/finallogo.png">
+          <p>Our purpose is to represent heritage sites responsibly and spread awareness as much as possible.</p>-->
+        </div>--->
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <a href="https://www.incredibleindia.org/content/incredible-india-v2/en.html"><li>Incredible India</li></a>
+            <a href="https://msme.gov.in/"><li>Ministry of Micro, Small and Medium Enterprises</li></a>
+            <a href="https://medium.com/@sreevatsannathan"><li>Blogpost</li></a>
+           <!-- <li>Help</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow us</h3>
+          <ul>
+            <a href="https://www.facebook.com/"><li>Facebook</li></a>
+            <a href="https://www.instagram.com/"><li>Instagram</li></a>
+            <a href="https://www.youtube.com/"><li>Youtube</li></a>
+            <a href="https://twitter.com/"><li>Twitter</li></a>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2023 - Herisite</p>
+    </div>
+  </div>-->
+
+<!---js for toggle menu-->
+  <script>
+    var menuItems = document.getElementByID("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+      if(MenuItems.style.maxHeight=="0px"){
+        MenuItems.style.maxHeight="200px";
+      }
+      else{
+        MenuItems.style.maxHeight="0px";
+      }
+    }
+  </script>
+</body>
+</html>

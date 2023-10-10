@@ -1,0 +1,107 @@
+
+.redblock:hover {
+    background-color: #00FF00; /* Green background color on hover */
+}
+.sub1{
+    display: inline-block;
+    margin-top:2px;
+    font-size: 25px;
+    border-radius: 8px;
+    padding-top: 0px;
+    color:red;
+    transition: background 0.5s;
+    overflow: hidden;
+    text-align: center;
+}
+.sub1:hover{
+    color:darkgoldenrod;
+    font-size:150% ;
+}
+.pro1{
+display: inline-block;
+    background: hsl(46, 100%, 62%);
+    color: #fff;
+    padding: 10px;
+    margin: 30px 0;
+    border-radius: 30px;
+    border: 1px solid #333;
+    transition: background 0.5s;
+    margin-right: 20px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    /* Set the width of each block to 50% for two blocks in a row */
+     /* Include padding and border in the width calculation */
+}
+.pro1:hover{
+    background-color: aqua;
+}
+/* Add margin to create space between the blocks */
+.pro2{
+    display: inline-block;
+        background: hsl(46, 100%, 62%);
+        color: #fff;
+        padding: 10px;
+        margin-left: 20px;
+        border-radius: 30px;
+        border: 1px solid #333;
+        transition: background 0.5s;
+        width: 300px;
+        margin-right: 20px;
+        overflow: hidden;
+        text-align: center;
+        /* Set the width of each block to 50% for two blocks in a row */
+         /* Include padding and border in the width calculation */
+    }
+    .pro2:hover{
+        background-color: aqua;
+    }
+    .alp {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        height: 100vh; /* Set the container to the full viewport height */
+    }
+
+    /* Style for the division */
+    .block{
+        background-color:grey;
+        width: 100vw;
+        margin-left: 0px;
+        margin-right:0px;
+        text-align: center;
+        
+    }
+ 
+
+
+    /* CSS code for the slideshow */
+
+    #slideshow {
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+      }
+      
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      
+      /* Add animation to the slideshow */
+      
+      #slideshow img {
+        animation: slideshow 7000ms linear infinite;
+      }
+      
+      @keyframes slideshow {
+        0% {
+          margin-left: 0px;
+        }
+        100% {
+          margin-left: -100%;
+        }
+      }
+
+
+    
